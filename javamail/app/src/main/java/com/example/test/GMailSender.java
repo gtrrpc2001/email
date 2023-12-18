@@ -18,8 +18,8 @@ import javax.mail.internet.MimeMessage;
 
 public class GMailSender extends javax.mail.Authenticator{
     private String host = "smtp.gmail.com";
-    private String sendEmail = "choongheonmsl@gmail.com";
-    private String pwd = "bdfzpryqnlnqfnap";
+    private String sendEmail = "email";
+    private String pwd = "pwd";
     private Session session;
     private String emailCode;
 
